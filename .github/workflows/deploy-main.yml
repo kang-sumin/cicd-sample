@@ -21,7 +21,7 @@ jobs:
           project: mintblue00/cicd-sample # 워크스페이스 이름/프로젝트 이름 ex) nbc.docker/cicd
           stage: main
           yaml: |
-            name: # 프로젝트 이름 ex) `cicd`
+            name: cicd-sample
             app: java@17
             options:
               ports: 8080
